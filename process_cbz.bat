@@ -2,10 +2,10 @@
 setlocal enabledelayedexpansion
 
 rem Define directories
-set "cbz_folder=C:\Users\guilh\OneDrive\Desktop\ESRGAN_April_2022\Blue Box (Digital) (1r0n)"  rem Folder containing CBZ files
-set "input_folder=C:\Users\guilh\OneDrive\Desktop\ESRGAN_April_2022\input"        rem Use existing input folder
-set "output_folder=C:\Users\guilh\OneDrive\Desktop\ESRGAN_April_2022\output"      rem Use existing output folder
-set "result_folder=C:\Users\guilh\OneDrive\Desktop\ESRGAN_April_2022\RESULTS"      rem Folder to store resulting CBZ files
+set "cbz_folder=%~dp0inputcbz"                         rem Folder containing CBZ files
+set "input_folder=%~dp0input"                          rem Use existing input folder
+set "output_folder=%~dp0output"                        rem Use existing output folder
+set "result_folder=%~dp0RESULTS"                       rem Folder to store resulting CBZ files
 
 rem Change to the directory where the script is located
 cd /d "%~dp0"
@@ -44,5 +44,6 @@ for %%f in ("%cbz_folder%\*.cbz") do (
 
 rem echo All CBZ files have been processed. Results are in "%result_folder%".
 pause
+
 
 
