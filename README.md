@@ -13,7 +13,8 @@ This project provides a batch script for processing comic book archive (CBZ) fil
  - ESRGAN: Clone or download the ESRGAN repository
  - Have this bat in the
  - The following directory structure:
-ESRGAN_April_2022       # Folder containing the ESRGAN executables
+
+ESRGAN_April_2022         # Folder containing the ESRGAN executables
 │
 ├── inputcbz               # Folder containing the CBZ files to process (name must match)
 │   └── your_comics.cbz
