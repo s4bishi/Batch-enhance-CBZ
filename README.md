@@ -14,19 +14,20 @@ This project provides a batch script for processing comic book archive (CBZ) fil
  - Have this bat in the
  - The following directory structure:
 
-ESRGAN_April_2022         # Folder containing the ESRGAN executables
- - inputcbz               # Folder containing the CBZ files to process (name must match)
+ESRGAN_April_2022   
+ - inputcbz               
     - your_comics.cbz
  - process_cbz.bat
  - realesrgan-ncnn-vulkan.exe 
  - UPSCALE_animevideov3_x2.bat
- - input                    # Folder for extracted images (cleared after each processing)
- - output                   # Folder for enhanced images (cleared after each processing)
- - RESULTS                  # Folder for storing processed CBZ files
+ - input                    
+ - output                  
+ - RESULTS                  
  - other files
 
 # Usage
  - Double-click process_cbz.bat
 # Acknowledgements
 ESRGAN - The Enhanced Super Resolution Generative Adversarial Network used for image enhancement https://github.com/xinntao/Real-ESRGAN
+
 7-Zip - Used for file extraction and compression.
